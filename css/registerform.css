@@ -1,0 +1,74 @@
+.form{
+    position: relative;
+	width: 70vw;
+	height: 83vh;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding: 0% 5% 0% 5%;
+
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin: 10px 0px 10px 0px;
+  
+}
+h2{
+	text-align: center;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin: 10px 0px 10px 0px;
+}
+#fname, #lname, #email, #password, #cpassword{
+	width: 80%;
+	border-radius: 5px;
+	height: 40px;
+	transition: 1s;
+	padding-left: 10px;
+}
+#fname:hover, #lname:hover, #email:hover, #password:hover, #cpassword:hover{
+	box-shadow: 3px 3px blue;
+}
+h2:hover{
+	text-shadow: 1px 1px blue;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+       }
+ #register{
+ 	width: 20%;
+ 	height: 80%;
+ 	border-radius: 10px;
+ 	transition: 1s;
+ }  
+ #register:hover{
+ 	background-color: blue;
+ } 
+ .stock{
+ 	height: 40px; 
+ 	margin-top: 10px;
+ 	 padding-top: 3px;
+ }   
+@media screen and (max-width: 768px){
+	.form{
+		position: relative;
+	width: 100vw;
+	height: 80vh;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	}
+	.col-25,.col-75{
+		width: 100%;
+		margin: 2px;
+	}
+}
